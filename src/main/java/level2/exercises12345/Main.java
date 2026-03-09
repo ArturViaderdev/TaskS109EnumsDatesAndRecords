@@ -1,9 +1,7 @@
-package level2;
+package level2.exercises12345;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.Period;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
 
 public class Main {
     public static void main(String[] args)
@@ -29,6 +27,16 @@ public class Main {
         System.out.println("D'aquí una hora seran les " + nextHour);
         LocalTime previousHour = time.minusHours(1);
         System.out.println("Fa una hora eren les " + previousHour.toString());
+        Duration duration = Duration.between(time,nextHour);
+        System.out.println("D'aqui a una hora hauran passat " + Long.toString(duration.getSeconds()) + " segons.");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy MM dd");
+        String textDate = "2025 09 06";
+        LocalDate birthday = LocalDate.parse(textDate,formatter);
+        System.out.println("El meu cumpleanys llegit de un string va esser el " + birthday.toString());
+        DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        LocalDate firstDayOfYear = LocalDate.parse("01/01/2025",formatter2);
+        System.out.println("El primer día del any 2025 era " + firstDayOfYear.toString());
+
         if(dateIsPreviousToToday(yesterday))
         {
             System.out.println("Ahir va ser abans que avui.");

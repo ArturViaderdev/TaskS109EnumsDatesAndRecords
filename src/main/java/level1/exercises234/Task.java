@@ -1,4 +1,4 @@
-package level1.exercise2;
+package level1.exercises234;
 
 public class Task {
     private Level level;

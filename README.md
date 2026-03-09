@@ -1,0 +1,49 @@
+# TaskS109E - Enums dates and records.
+
+## Level 1
+
+### Exercise 1
+
+I created an enum called Day with the days of week and created a method that receives a day and write on console if the day is weekend or not is weekend.
+
+### Exercise 2
+
+I created an enum with LOW, MEDIUM and HIGH values and a class called TASK that receives the enum in the constructor.
+
+### Exercise 3
+
+I added a method getColor in the enum that returns a different color name for each level.
+
+### Exercise 4
+
+I converted an String to the enum value with valueOf and did a try catch to find when an incorrect value is passed.
+
+## Level 2
+
+### Exercise 1
+
+I showed in the terminal the local date and time using LocalDate, LocalTime and LocalDatetime.
+
+### Exercise 2
+
+I calculated the difference between two dates with Period. And later I calculated how many seconds will pass since one hour later.
+
+### Exercise 3
+
+I added and subtracted days, months and hours to a date and a time.
+
+### Exercise 4
+
+I formatted a date from a string with two different formats.
+
+### Exercise 5
+
+I created a function that receives one date and returns true if the date in anterior to today.
+
+### Exercise 6
+
+I created a program that stores appointments introduced by the user with a date, time and a description. The program shows the next dates.
+
+## Level 3
+
+### Exercise 1
