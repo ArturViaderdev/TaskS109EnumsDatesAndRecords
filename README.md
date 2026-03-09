@@ -47,3 +47,25 @@ I created a program that stores appointments introduced by the user with a date,
 ## Level 3
 
 ### Exercise 1
+
+I created a record and instantiated it.
+
+### Exercise 2
+
+I added methods in the record.
+
+### Exercise 3
+
+I created a validation rule that throws exception if not is correct.
+
+### Exercise 4
+
+I created a list of the record type and filtered it with lambda and streams.
+
+### Exercise 5
+
+I created a class that makes the same functionality as the record.
+
+I observe that the Record has advantages, it requires less coding.
+
+It not requires to pass the values on the constructor and implements automatically the toString, equals and hashCode methods.

@@ -6,7 +6,6 @@ import java.util.List;
 public class Main {
     public static void main(String[] args)
     {
-
         List<Person> persons = new ArrayList<>();
         try
         {
@@ -25,8 +24,22 @@ public class Main {
 
         adults.forEach(adult-> System.out.println(adult.toString()));
 
+        List<PersonClass> personsOfClass = new ArrayList<>();
+        try
+        {
+            personsOfClass.add(new PersonClass("Artur",43));
+            personsOfClass.add(new PersonClass("Jose",30));
+            personsOfClass.add(new PersonClass("Julio",10));
+        }
+        catch(IllegalArgumentException ex)
+        {
+            System.out.println(ex.getMessage());
+        }
 
-
+        List<PersonClass> adultsOfClass = personsOfClass.stream()
+                .filter(PersonClass::isAdult)
+                .toList();
+        adultsOfClass.forEach(adultOfClass-> System.out.println(adultOfClass.toString()));
 
     }
 }
