@@ -1,5 +1,59 @@
 # TaskS109E - Enums dates and records.
 
+## Description
+This project was created for academic purposes as part of the IT Academy Java & Spring specialization.
+The goal is to test the generic parameters and the varargs in methods.
+
+The project is structured in three levels of increasing complexity.
+
+## 🛠 Technologies
+- Java
+
+##    Project Structure
+````bash
+├── pom.xml
+├── README.md
+└── src
+    └── main
+        └── java
+            ├── level1
+            │   ├── exercise1
+            │   │   ├── Day.java
+            │   │   └── Main.java
+            │   └── exercises234
+            │       ├── Level.java
+            │       ├── Main.java
+            │       └── Task.java
+            ├── level2
+            │   ├── exercise6
+            │   │   ├── Appointment.java
+            │   │   ├── ConsoleUI.java
+            │   │   ├── EmptyDescriptionException.java
+            │   │   ├── Main.java
+            │   │   └── Program.java
+            │   └── exercises12345
+            │       └── Main.java
+            └── level3
+                ├── Main.java
+                ├── PersonClass.java
+                └── Person.java
+
+````
+
+## 🚀 Instal.lation and Execution
+1. Clone the repository:
+````bash
+git clone https://github.com/ArturViaderdev/TaskS109EnumsDatesAndRecords
+cd TaskS109EnumsDatesAndRecords/src/main/java
+````
+You can do cd into the exercise folder you want to execute and execute with:
+````
+java Main.java
+````
+Or run with IntelliJ IDEA.
+
+The projects are inside src/main/java.
+
 ## Level 1
 
 ### Exercise 1
