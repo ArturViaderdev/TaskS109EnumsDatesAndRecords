@@ -19,10 +19,12 @@ The project is structured in three levels of increasing complexity.
             ├── level1
             │   ├── exercise1
             │   │   ├── Day.java
-            │   │   └── Main.java
+            │   │   ├── Main.java
+            │   │   └── Program.java
             │   └── exercises234
             │       ├── Level.java
             │       ├── Main.java
+            │       ├── Program.java
             │       └── Task.java
             ├── level2
             │   ├── exercise6
@@ -32,11 +34,13 @@ The project is structured in three levels of increasing complexity.
             │   │   ├── Main.java
             │   │   └── Program.java
             │   └── exercises12345
-            │       └── Main.java
+            │       ├── Main.java
+            │       └── Program.java
             └── level3
                 ├── Main.java
                 ├── PersonClass.java
-                └── Person.java
+                ├── Person.java
+                └── Program.java
 
 ````
 
